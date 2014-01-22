@@ -62,15 +62,15 @@ public interface OdeMessages extends Messages {
   @Description("Header for name column of project table")
   String projectNameHeader();
 
-  @DefaultMessage("Date de création")
+  @DefaultMessage("Date de creation")
   @Description("Header for date created column of project table.")
   String projectDateCreatedHeader();
 
-  @DefaultMessage("Date Modified")
+  @DefaultMessage("Date de modification")
   @Description("Header for date modified column of project table.")
   String projectDateModifiedHeader();
 
-  @DefaultMessage("Checkpoint ...")
+  @DefaultMessage("Point de controle ...")
   @Description("Label of the button for checkpoint")
   String checkpointButton();
 
@@ -876,15 +876,15 @@ public interface OdeMessages extends Messages {
   @Description("Label for the Project Button")
   String projectButton();
 
-  @DefaultMessage("Start new project ...")
+  @DefaultMessage("Commencer un nouveau projet ...")
   @Description("Label of the menu item for creating a new project")
   String newMenuItemButton();
 
-  @DefaultMessage("Delete project")
+  @DefaultMessage("Supprimer le projet")
   @Description("Label of the menu item for deleting a project")
   String deleteMenuItemButton();
 
-  @DefaultMessage("New Project")
+  @DefaultMessage("Nouveau projet")
   @Description("Label of the button for creating a new project")
     String newButton();
 
