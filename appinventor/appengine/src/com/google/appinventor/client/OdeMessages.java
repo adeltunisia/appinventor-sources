@@ -34,7 +34,7 @@ public interface OdeMessages extends Messages {
   @Description("Label next to the new name in a rename dialog")
   String newNameLabel();
 
-  @DefaultMessage("Null")
+  @DefaultMessage("Vide")
   @Description("Caption for None entry")
   String noneCaption();
 
@@ -46,15 +46,15 @@ public interface OdeMessages extends Messages {
   @Description("Text on 'Delete Project' button")
   String deleteProjectButton();
 
-  @DefaultMessage("Show Warnings")
+  @DefaultMessage("Afficher les avertissements")
   @Description("Text on Toggle Warning Button")
   String showWarnings();
 
-  @DefaultMessage("Hide Warnings")
+  @DefaultMessage("Cacher les avertissements")
   @Description("Text on Toggle Warning Button")
   String hideWarnings();
 
-  @DefaultMessage("Upload File ...")
+  @DefaultMessage("Charger fichier ...")
   @Description("Text on 'Add...' button")
   String addButton();
 
@@ -82,7 +82,7 @@ public interface OdeMessages extends Messages {
   @Description("Label of the button for removing a screen")
   String removeFormButton();
 
-  @DefaultMessage("Connect")
+  @DefaultMessage("Connecter")
   @Description("Label of the button for selecting phone connection")
   String connectButton();
 
@@ -92,7 +92,7 @@ public interface OdeMessages extends Messages {
   @Description("Confirmation query for removing a screen")
   String reallyDeleteForm(String formName);
 
-  @DefaultMessage("Open the Blocks Editor")
+  @DefaultMessage("Ouvrir l editeur de bloc")
   @Description("Label of the button for opening the blocks editor")
   String openBlocksEditorButton();
 

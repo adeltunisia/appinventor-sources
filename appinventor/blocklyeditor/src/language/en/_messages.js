@@ -130,10 +130,10 @@ Blockly.LANG_CONTROLS_FORRANGE_TOOLTIP = 'Runs the blocks in the \'do\' section 
   + 'variable name to refer to the current value.';
 
 Blockly.LANG_CONTROLS_FOREACH_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#foreach';
-Blockly.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'for each';
-Blockly.LANG_CONTROLS_FOREACH_INPUT_VAR = 'item';
-Blockly.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'in list';
-Blockly.LANG_CONTROLS_FOREACH_INPUT_DO = 'do';
+Blockly.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'pour chaque';
+Blockly.LANG_CONTROLS_FOREACH_INPUT_VAR = 'element';
+Blockly.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'dans la liste';
+Blockly.LANG_CONTROLS_FOREACH_INPUT_DO = 'faire';
 Blockly.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_TEXT = 'for item in list';
 Blockly.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_PREFIX = 'for ';
 Blockly.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_SUFFIX = ' in list';
@@ -155,19 +155,19 @@ Blockly.LANG_CONTROLS_FLOW_STATEMENTS_WARNING = 'Warning:\n' +
   'be used within a loop.';
 
 Blockly.LANG_CONTROLS_WHILE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#while';;
-Blockly.LANG_CONTROLS_WHILE_TITLE = 'while';
+Blockly.LANG_CONTROLS_WHILE_TITLE = 'Tant que';
 Blockly.LANG_CONTROLS_WHILE_INPUT_TEST = 'test';
-Blockly.LANG_CONTROLS_WHILE_INPUT_DO = 'do';
-Blockly.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = 'while';
+Blockly.LANG_CONTROLS_WHILE_INPUT_DO = 'faire';
+Blockly.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = 'Tant que';
 Blockly.LANG_CONTROLS_WHILE_TOOLTIP = 'Runs the blocks in the \'do\' section while the test is '
   + 'true.';
 
 Blockly.LANG_CONTROLS_CHOOSE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#choose';
-Blockly.LANG_CONTROLS_CHOOSE_TITLE = 'if'
+Blockly.LANG_CONTROLS_CHOOSE_TITLE = 'Si'
 Blockly.LANG_CONTROLS_CHOOSE_INPUT_TEST = '';
-Blockly.LANG_CONTROLS_CHOOSE_INPUT_THEN_RETURN = 'then';
-Blockly.LANG_CONTROLS_CHOOSE_INPUT_ELSE_RETURN = 'else';
-Blockly.LANG_CONTROLS_CHOOSE_COLLAPSED_TEXT = 'if'; 
+Blockly.LANG_CONTROLS_CHOOSE_INPUT_THEN_RETURN = 'alors';
+Blockly.LANG_CONTROLS_CHOOSE_INPUT_ELSE_RETURN = 'sinon';
+Blockly.LANG_CONTROLS_CHOOSE_COLLAPSED_TEXT = 'si'; 
 Blockly.LANG_CONTROLS_CHOOSE_TOOLTIP = 'If the condition being tested is true,'
   + 'return the result of evaluating the expression attached to the \'then-return\' slot;'
   + 'otherwise return the result of evaluating the expression attached to the \'else-return\' slot;'
@@ -258,20 +258,20 @@ Blockly.LANG_LOGIC_COMPARE_TOOLTIP_NEQ = 'Return true if both inputs are not equ
 
 Blockly.LANG_LOGIC_OPERATION_HELPURL_AND = 'http://appinventor.mit.edu/explore/ai2/support/blocks/logic#and';
 Blockly.LANG_LOGIC_OPERATION_HELPURL_OR = 'http://appinventor.mit.edu/explore/ai2/support/blocks/logic#or';
-Blockly.LANG_LOGIC_OPERATION_AND = 'and';
-Blockly.LANG_LOGIC_OPERATION_OR = 'or';
+Blockly.LANG_LOGIC_OPERATION_AND = 'et';
+Blockly.LANG_LOGIC_OPERATION_OR = 'ou';
 Blockly.LANG_LOGIC_OPERATION_TOOLTIP_AND = 'Return true if all inputs are true.';
 Blockly.LANG_LOGIC_OPERATION_TOOLTIP_OR = 'Return true if any input is true.';
 
 Blockly.LANG_LOGIC_NEGATE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/logic#not';
-Blockly.LANG_LOGIC_NEGATE_INPUT_NOT = 'not';
+Blockly.LANG_LOGIC_NEGATE_INPUT_NOT = 'non';
 Blockly.LANG_LOGIC_NEGATE_TOOLTIP = 'Returns true if the input is false.\n' +
   'Returns false if the input is true.';
 
 Blockly.LANG_LOGIC_BOOLEAN_TRUE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/logic#true';
 Blockly.LANG_LOGIC_BOOLEAN_FALSE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/logic#false';
-Blockly.LANG_LOGIC_BOOLEAN_TRUE = 'true';
-Blockly.LANG_LOGIC_BOOLEAN_FALSE = 'false';
+Blockly.LANG_LOGIC_BOOLEAN_TRUE = 'Vrai';
+Blockly.LANG_LOGIC_BOOLEAN_FALSE = 'Faux';
 Blockly.LANG_LOGIC_BOOLEAN_TOOLTIP_TRUE = 'Returns the boolean true.';
 Blockly.LANG_LOGIC_BOOLEAN_TOOLTIP_FALSE = 'Returns the boolean false.';
 
@@ -589,9 +589,9 @@ Blockly.LANG_TEXT_REPLACE_ALL_TOOLTIP = 'Returns a new text obtained by replacin
   + 'of the segment with the replacement.';
 
 // Lists Blocks.
-Blockly.LANG_CATEGORY_LISTS = 'Les listes';
+Blockly.LANG_CATEGORY_LISTS = 'Lists';
 //Blockly.LANG_LISTS_CREATE_EMPTY_HELPURL = 'http://en.wikipedia.org/wiki/Linked_list#Empty_lists';
-Blockly.LANG_LISTS_CREATE_EMPTY_TITLE = 'create empty list';
+Blockly.LANG_LISTS_CREATE_EMPTY_TITLE = 'Creer une liste vide';
 //Blockly.LANG_LISTS_CREATE_EMPTY_TOOLTIP = 'Returns a list, of length 0, containing no data records';
 
 Blockly.LANG_LISTS_CREATE_WITH_EMPTY_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/lists#makealist';

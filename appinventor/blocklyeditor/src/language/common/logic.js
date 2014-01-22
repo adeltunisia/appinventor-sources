@@ -108,9 +108,9 @@ Blockly.Language.logic_negate = {
   init : function() {
     this.setColour(Blockly.LOGIC_CATEGORY_HUE);
     this.setOutput(true, Blockly.Language.YailTypeToBlocklyType("boolean",Blockly.Language.OUTPUT));
-    this.appendValueInput('BOOL').setCheck(Blockly.Language.YailTypeToBlocklyType("boolean",Blockly.Language.INPUT)).appendTitle('not');
+    this.appendValueInput('BOOL').setCheck(Blockly.Language.YailTypeToBlocklyType("boolean",Blockly.Language.INPUT)).appendTitle('non');
     this.setTooltip(Blockly.LANG_LOGIC_NEGATE_TOOLTIP);
-    this.appendCollapsedInput().appendTitle('not', 'COLLAPSED_TEXT');
+    this.appendCollapsedInput().appendTitle('non', 'COLLAPSED_TEXT');
   },
   typeblock: [{ translatedName:Blockly.LANG_LOGIC_NEGATE_INPUT_NOT }]
 };
