@@ -26,15 +26,15 @@ public interface OdeMessages extends Messages {
   @Description("Text on 'Dismiss' button.")
   String dismissButton();
 
-  @DefaultMessage("Old name:")
+  @DefaultMessage("Ancien nom:")
   @Description("Label next to the old name in a rename dialog")
   String oldNameLabel();
 
-  @DefaultMessage("New name:")
+  @DefaultMessage("Nouveau nom:")
   @Description("Label next to the new name in a rename dialog")
   String newNameLabel();
 
-  @DefaultMessage("None")
+  @DefaultMessage("Null")
   @Description("Caption for None entry")
   String noneCaption();
 
@@ -42,7 +42,7 @@ public interface OdeMessages extends Messages {
   @Description("Text on 'Delete' button")
   String deleteButton();
 
-  @DefaultMessage("Delete Project")
+  @DefaultMessage("Supprimer le projet")
   @Description("Text on 'Delete Project' button")
   String deleteProjectButton();
 
@@ -58,11 +58,11 @@ public interface OdeMessages extends Messages {
   @Description("Text on 'Add...' button")
   String addButton();
 
-  @DefaultMessage("Name")
+  @DefaultMessage("Nom")
   @Description("Header for name column of project table")
   String projectNameHeader();
 
-  @DefaultMessage("Date Created")
+  @DefaultMessage("Date de création")
   @Description("Header for date created column of project table.")
   String projectDateCreatedHeader();
 
@@ -1243,7 +1243,7 @@ public interface OdeMessages extends Messages {
   @Description("Message providing details about starting the wireless connection.")
   String wirelessButton();
 
-  @DefaultMessage("Emulator")
+  @DefaultMessage("Emulateur")
   @Description("Message providing details about starting the emulator connection.")
   String emulatorButton();
 
