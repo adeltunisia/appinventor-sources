@@ -14,7 +14,7 @@ import com.google.gwt.i18n.client.Messages;
 public interface OdeMessages extends Messages {
   // Used in multiple files
 
-  @DefaultMessage("Cancel")
+  @DefaultMessage("Annuler")
   @Description("Text on 'Cancel' button.")
   String cancelButton();
 
@@ -22,7 +22,7 @@ public interface OdeMessages extends Messages {
   @Description("Text on 'OK' button.")
   String okButton();
 
-  @DefaultMessage("Dismiss")
+  @DefaultMessage("Rejeter")
   @Description("Text on 'Dismiss' button.")
   String dismissButton();
 
@@ -38,7 +38,7 @@ public interface OdeMessages extends Messages {
   @Description("Caption for None entry")
   String noneCaption();
 
-  @DefaultMessage("Delete")
+  @DefaultMessage("Supprimer")
   @Description("Text on 'Delete' button")
   String deleteButton();
 
@@ -74,11 +74,11 @@ public interface OdeMessages extends Messages {
   @Description("Label of the button for checkpoint")
   String checkpointButton();
 
-  @DefaultMessage("Add Screen ...")
+  @DefaultMessage("Ajouter Interface ...")
   @Description("Label of the button for adding a new screen")
   String addFormButton();
 
-  @DefaultMessage("Remove Screen")
+  @DefaultMessage("Supprimer Interface")
   @Description("Label of the button for removing a screen")
   String removeFormButton();
 
@@ -144,7 +144,7 @@ public interface OdeMessages extends Messages {
 
   // Used in Ode.java
 
-  @DefaultMessage("MIT App Inventor 2")
+  @DefaultMessage("MIT App Inventor 2 by ADEL")
   @Description("Title for App Inventor")
   String titleYoungAndroid();
 
@@ -222,15 +222,15 @@ public interface OdeMessages extends Messages {
 
   // Used in TopPanel.java
 
-  @DefaultMessage("Save project")
+  @DefaultMessage("Enregistrer le projet")
   @Description("Name of Save menuitem")
   String saveMenuItem();
 
-  @DefaultMessage("Save project as ...")
+  @DefaultMessage("Enregistrer le projet sous ...")
   @Description("Name of Save as ... menuitem")
   String saveAsMenuItem();
 
-  @DefaultMessage("Import project (.aia) from my computer ...")
+  @DefaultMessage("Importer le projet (.aia) de mon ordinateur ...")
   @Description("Name of Import Project menuitem")
   String importProjectButton();
 
@@ -246,7 +246,7 @@ public interface OdeMessages extends Messages {
   @Description("Label of the link for signing out")
   String signOutLink();
 
-  @DefaultMessage("My Projects")
+  @DefaultMessage("Mes projets")
   @Description("Name of My Projects tab")
   String tabNameProjects();
 

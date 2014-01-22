@@ -6,14 +6,14 @@
  */
 
 // Context menus.
-Blockly.MSG_DUPLICATE_BLOCK = 'Duplicate';
-Blockly.MSG_REMOVE_COMMENT = 'Remove Comment';
-Blockly.MSG_ADD_COMMENT = 'Add Comment';
+Blockly.MSG_DUPLICATE_BLOCK = 'Dupliquer';
+Blockly.MSG_REMOVE_COMMENT = 'Supprimer commentaire';
+Blockly.MSG_ADD_COMMENT = 'Ajouter commentaire';
 Blockly.MSG_EXTERNAL_INPUTS = 'External Inputs';
 Blockly.MSG_INLINE_INPUTS = 'Inline Inputs';
 Blockly.MSG_HORIZONTAL_PARAMETERS = 'Arrange Parameters Horizontally';
 Blockly.MSG_VERTICAL_PARAMETERS = 'Arrange Parameters Vertically';
-Blockly.MSG_DELETE_BLOCK = 'Delete Block';
+Blockly.MSG_DELETE_BLOCK = 'Supprimer bloc';
 Blockly.MSG_DELETE_X_BLOCKS = 'Delete %1 Blocks';
 Blockly.MSG_COLLAPSE_BLOCK = 'Collapse Block';
 Blockly.MSG_EXPAND_BLOCK = 'Expand Block';
@@ -79,19 +79,19 @@ Blockly.LANG_CONTROLS_IF_TOOLTIP_3 = 'If the first value is true, then do the fi
 Blockly.LANG_CONTROLS_IF_TOOLTIP_4 = 'If the first value is true, then do the first block of statements.\n' +
   'Otherwise, if the second value is true, do the second block of statements.\n' +
   'If none of the values are true, do the last block of statements.';
-Blockly.LANG_CONTROLS_IF_MSG_IF = 'if';
-Blockly.LANG_CONTROLS_IF_MSG_ELSEIF = 'else if';
-Blockly.LANG_CONTROLS_IF_MSG_ELSE = 'else';
-Blockly.LANG_CONTROLS_IF_MSG_THEN = 'then';
+Blockly.LANG_CONTROLS_IF_MSG_IF = 'si';
+Blockly.LANG_CONTROLS_IF_MSG_ELSEIF = 'sinon si';
+Blockly.LANG_CONTROLS_IF_MSG_ELSE = 'sinon';
+Blockly.LANG_CONTROLS_IF_MSG_THEN = 'alors';
 
-Blockly.LANG_CONTROLS_IF_IF_TITLE_IF = 'if';
+Blockly.LANG_CONTROLS_IF_IF_TITLE_IF = 'si';
 Blockly.LANG_CONTROLS_IF_IF_TOOLTIP = 'Add, remove, or reorder sections\n' +
   'to reconfigure this if block.';
 
-Blockly.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'else if';
+Blockly.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'sinon si';
 Blockly.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Add a condition to the if block.';
 
-Blockly.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'else';
+Blockly.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'si';
 Blockly.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Add a final, catch-all condition to the if block.';
 
 Blockly.LANG_CONTROLS_WHILEUNTIL_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#while';
@@ -116,12 +116,12 @@ Blockly.LANG_CONTROLS_FOR_TOOLTIP = 'Count from a start number to an end number.
   'variable "%1", and then do some statements.';
 
 Blockly.LANG_CONTROLS_FORRANGE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#forrange';
-Blockly.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'for each';
-Blockly.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'number';
-Blockly.LANG_CONTROLS_FORRANGE_INPUT_START = 'from';
-Blockly.LANG_CONTROLS_FORRANGE_INPUT_END = 'to';
-Blockly.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'by';
-Blockly.LANG_CONTROLS_FORRANGE_INPUT_DO = 'do';
+Blockly.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'pour chaque';
+Blockly.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'nombre';
+Blockly.LANG_CONTROLS_FORRANGE_INPUT_START = 'de';
+Blockly.LANG_CONTROLS_FORRANGE_INPUT_END = 'à';
+Blockly.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'par';
+Blockly.LANG_CONTROLS_FORRANGE_INPUT_DO = 'faire';
 Blockly.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'for number in range';
 Blockly.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'for ';
 Blockly.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' in range';
@@ -589,7 +589,7 @@ Blockly.LANG_TEXT_REPLACE_ALL_TOOLTIP = 'Returns a new text obtained by replacin
   + 'of the segment with the replacement.';
 
 // Lists Blocks.
-Blockly.LANG_CATEGORY_LISTS = 'Lists';
+Blockly.LANG_CATEGORY_LISTS = 'Les listes';
 //Blockly.LANG_LISTS_CREATE_EMPTY_HELPURL = 'http://en.wikipedia.org/wiki/Linked_list#Empty_lists';
 Blockly.LANG_LISTS_CREATE_EMPTY_TITLE = 'create empty list';
 //Blockly.LANG_LISTS_CREATE_EMPTY_TOOLTIP = 'Returns a list, of length 0, containing no data records';
