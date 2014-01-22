@@ -26,15 +26,15 @@ public interface OdeMessages extends Messages {
   @Description("Text on 'Dismiss' button.")
   String dismissButton();
 
-  @DefaultMessage("Old name:")
+  @DefaultMessage("Ancien nom:")
   @Description("Label next to the old name in a rename dialog")
   String oldNameLabel();
 
-  @DefaultMessage("New name:")
+  @DefaultMessage("Nouveau nom:")
   @Description("Label next to the new name in a rename dialog")
   String newNameLabel();
 
-  @DefaultMessage("None")
+  @DefaultMessage("nul")
   @Description("Caption for None entry")
   String noneCaption();
 
@@ -42,35 +42,35 @@ public interface OdeMessages extends Messages {
   @Description("Text on 'Delete' button")
   String deleteButton();
 
-  @DefaultMessage("Delete Project")
+  @DefaultMessage("Supprimer le projet")
   @Description("Text on 'Delete Project' button")
   String deleteProjectButton();
 
-  @DefaultMessage("Show Warnings")
+  @DefaultMessage("Voir les avertissements")
   @Description("Text on Toggle Warning Button")
   String showWarnings();
 
-  @DefaultMessage("Hide Warnings")
+  @DefaultMessage("Cacher les avertissements")
   @Description("Text on Toggle Warning Button")
   String hideWarnings();
 
-  @DefaultMessage("Upload File ...")
+  @DefaultMessage("Charger le fichier ...")
   @Description("Text on 'Add...' button")
   String addButton();
 
-  @DefaultMessage("Name")
+  @DefaultMessage("Nom")
   @Description("Header for name column of project table")
   String projectNameHeader();
 
-  @DefaultMessage("Date Created")
+  @DefaultMessage("Date de création")
   @Description("Header for date created column of project table.")
   String projectDateCreatedHeader();
 
-  @DefaultMessage("Date Modified")
+  @DefaultMessage("Date de modification")
   @Description("Header for date modified column of project table.")
   String projectDateModifiedHeader();
 
-  @DefaultMessage("Checkpoint ...")
+  @DefaultMessage("Point de contrôle ...")
   @Description("Label of the button for checkpoint")
   String checkpointButton();
 
@@ -82,7 +82,7 @@ public interface OdeMessages extends Messages {
   @Description("Label of the button for removing a screen")
   String removeFormButton();
 
-  @DefaultMessage("Connect")
+  @DefaultMessage("Connecter")
   @Description("Label of the button for selecting phone connection")
   String connectButton();
 
@@ -92,15 +92,15 @@ public interface OdeMessages extends Messages {
   @Description("Confirmation query for removing a screen")
   String reallyDeleteForm(String formName);
 
-  @DefaultMessage("Open the Blocks Editor")
+  @DefaultMessage("Ouvrez l'éditeur de blocs")
   @Description("Label of the button for opening the blocks editor")
   String openBlocksEditorButton();
 
-  @DefaultMessage("Screens ...")
+  @DefaultMessage("Interfaces ...")
   @Description("Label of the button for switching screens")
   String screensButton();
 
-  @DefaultMessage("Blocks")
+  @DefaultMessage("Blocs")
   @Description("Label of the button for switching to the blocks editor")
   String switchToBlocksEditorButton();
 
@@ -112,7 +112,7 @@ public interface OdeMessages extends Messages {
   @Description("Label of item for building a project and show barcode")
   String showBarcodeButton();
 
-  @DefaultMessage("App ( save .apk to my computer )")
+  @DefaultMessage("App ( enregistre .apk sur mon ordinateur )")
   @Description("Label of item for building a project and downloading")
   String downloadToComputerButton();
 
@@ -144,7 +144,7 @@ public interface OdeMessages extends Messages {
 
   // Used in Ode.java
 
-  @DefaultMessage("MIT App Inventor 2 by ADEL")
+  @DefaultMessage("MIT App Inventor 2 by ADEL KASSAH")
   @Description("Title for App Inventor")
   String titleYoungAndroid();
 
@@ -200,11 +200,11 @@ public interface OdeMessages extends Messages {
   @Description("Label showing the ant build date and the git version")
   String gitBuildId(String date, String version);
 
-  @DefaultMessage("Help")
+  @DefaultMessage("Aide")
   @Description("Label for the Help menu")
   String helpLink();
 
-  @DefaultMessage("About")
+  @DefaultMessage("A-propos")
   @Description("Label of the link for About")
   String aboutLink();
 
