@@ -108,31 +108,31 @@ public interface OdeMessages extends Messages {
   @Description("Label of the button for switching to the form editor")
   String switchToFormEditorButton();
 
-  @DefaultMessage("App ( provide QR code for .apk )")
+  @DefaultMessage("App ( donner le code QR  pour .apk )")
   @Description("Label of item for building a project and show barcode")
   String showBarcodeButton();
 
-  @DefaultMessage("App ( save .apk to my computer )")
+  @DefaultMessage("App ( enregistrer .apk sur mon PC )")
   @Description("Label of item for building a project and downloading")
   String downloadToComputerButton();
 
-  @DefaultMessage("Generate YAIL")
+  @DefaultMessage("Generer YAIL")
   @Description("Label of the cascade item for generating YAIL for a project")
   String generateYailButton();
 
-  @DefaultMessage("Build")
+  @DefaultMessage("Construction")
   @Description("Label of the button leading to build related cascade items")
   String buildButton();
 
-  @DefaultMessage("Packaging ...")
+  @DefaultMessage("Emballement ...")
   @Description("Label of the button leading to build related cascade items, when building")
   String isBuildingButton();
 
-  @DefaultMessage("Opening the Blocks Editor... (click to cancel)")
+  @DefaultMessage("Ouverture de l editeur des blocs... (cliquer pour annuler)")
   @Description("Label of the button for canceling the blocks editor launch")
   String cancelBlocksEditorButton();
 
-  @DefaultMessage("Blocks Editor is open")
+  @DefaultMessage("l editeur des blocs est ouvert")
   @Description("Label of the button for opening the blocks editor when the it is already open")
   String blocksEditorIsOpenButton();
 
