@@ -774,7 +774,7 @@ Blockly.LANG_VARIABLES_GET_TOOLTIP = 'Returns the value of this variable.';
 Blockly.LANG_VARIABLES_SET_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/variables#set';
 Blockly.LANG_VARIABLES_SET_TITLE_SET = 'fixer';
 /* Blockly.LANG_VARIABLES_SET_INPUT_ITEM = 'element'; */ // [lyn, 10/14/13] unused
-Blockly.LANG_VARIABLES_SET_TITLE_TO = 'a;
+Blockly.LANG_VARIABLES_SET_TITLE_TO = 'a';
 Blockly.LANG_VARIABLES_SET_COLLAPSED_TEXT = 'fixer';
 Blockly.LANG_VARIABLES_SET_TOOLTIP = 'Sets this variable to be equal to the input.';
 
