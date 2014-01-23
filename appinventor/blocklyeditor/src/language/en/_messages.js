@@ -191,9 +191,9 @@ Blockly.LANG_CONTROLS_NOTHING_TOOLTIP = 'Returns nothing. Used to initialize var
 */
 
 Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#openscreen';
-Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TITLE = 'open another screen';
-Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_INPUT_SCREENNAME = 'screenName';
-Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_COLLAPSED_TEXT = 'open screen';
+Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TITLE = 'ouvrir une autre interface';
+Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_INPUT_SCREENNAME = 'nomInterface';
+Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_COLLAPSED_TEXT = 'ouvrir interface';
 Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TOOLTIP = 'Opens a new screen in a multiple screen app.';
 
 Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#openscreenwithvalue';
