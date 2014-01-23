@@ -95,21 +95,21 @@ Blockly.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'si';
 Blockly.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Add a final, catch-all condition to the if block.';
 
 Blockly.LANG_CONTROLS_WHILEUNTIL_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#while';
-Blockly.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'repeat';
-Blockly.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'do';
-Blockly.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'while';
-Blockly.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'until';
+Blockly.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'repeter';
+Blockly.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'faire';
+Blockly.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'tant que';
+Blockly.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'jusqu a';
 Blockly.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'While a value is true, then do some statements.';
 Blockly.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'While a value is false, then do some statements.';
 Blockly.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'Runs the blocks in the \'do\' section while the test is '
         + 'true.';
 
 Blockly.LANG_CONTROLS_FOR_HELPURL = '';
-Blockly.LANG_CONTROLS_FOR_INPUT_WITH = 'count with';
+Blockly.LANG_CONTROLS_FOR_INPUT_WITH = 'compter avec';
 Blockly.LANG_CONTROLS_FOR_INPUT_VAR = 'x';
-Blockly.LANG_CONTROLS_FOR_INPUT_FROM = 'from';
-Blockly.LANG_CONTROLS_FOR_INPUT_TO = 'to';
-Blockly.LANG_CONTROLS_FOR_INPUT_DO = 'do';
+Blockly.LANG_CONTROLS_FOR_INPUT_FROM = 'de';
+Blockly.LANG_CONTROLS_FOR_INPUT_TO = 'a';
+Blockly.LANG_CONTROLS_FOR_INPUT_DO = 'faire';
 
 Blockly.LANG_CONTROLS_FOR_TOOLTIP = 'Count from a start number to an end number.\n' +
   'For each count, set the current count number to\n' +
@@ -119,11 +119,11 @@ Blockly.LANG_CONTROLS_FORRANGE_HELPURL = 'http://appinventor.mit.edu/explore/ai2
 Blockly.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'pour chaque';
 Blockly.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'nombre';
 Blockly.LANG_CONTROLS_FORRANGE_INPUT_START = 'de';
-Blockly.LANG_CONTROLS_FORRANGE_INPUT_END = 'à';
+Blockly.LANG_CONTROLS_FORRANGE_INPUT_END = 'a';
 Blockly.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'par';
 Blockly.LANG_CONTROLS_FORRANGE_INPUT_DO = 'faire';
 Blockly.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'for number in range';
-Blockly.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'for ';
+Blockly.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'de ';
 Blockly.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' in range';
 Blockly.LANG_CONTROLS_FORRANGE_TOOLTIP = 'Runs the blocks in the \'do\' section for each numeric '
   + 'value in the range from start to end, stepping the value each time.  Use the given '
@@ -174,12 +174,12 @@ Blockly.LANG_CONTROLS_CHOOSE_TOOLTIP = 'If the condition being tested is true,'
   + 'at most one of the return slot expressions will be evaluated.';
 
 Blockly.LANG_CONTROLS_DO_THEN_RETURN_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#doreturn';
-Blockly.LANG_CONTROLS_DO_THEN_RETURN_INPUT_DO = 'do';
-Blockly.LANG_CONTROLS_DO_THEN_RETURN_INPUT_RETURN = 'result';
+Blockly.LANG_CONTROLS_DO_THEN_RETURN_INPUT_DO = 'faire';
+Blockly.LANG_CONTROLS_DO_THEN_RETURN_INPUT_RETURN = 'resultat';
 Blockly.LANG_CONTROLS_DO_THEN_RETURN_TOOLTIP = 'Runs the blocks in \'do\' and returns a statement. Useful if you need to run a procedure before returning a value to a variable.';
 Blockly.LANG_CONTROLS_DO_THEN_RETURN_COLLAPSED_TEXT = 'do/result';
 
-Blockly.LANG_CONTROLS_EVAL_BUT_IGNORE_TITLE = 'evaluate but ignore result'
+Blockly.LANG_CONTROLS_EVAL_BUT_IGNORE_TITLE = 'evaluer, mais ignorer le resultat'
 Blockly.LANG_CONTROLS_EVAL_BUT_IGNORE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#evaluate';
 Blockly.LANG_CONTROLS_EVAL_BUT_COLLAPSED_TEXT = 'eval but ignore'
 Blockly.LANG_CONTROLS_EVAL_BUT_IGNORE_TOOLTIP = 'Runs the connected block of code and ignores the return value (if any). Useful if need to call a procedure with a return value but don\'t need the value.';
