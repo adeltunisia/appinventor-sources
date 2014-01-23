@@ -925,7 +925,7 @@ public interface OdeMessages extends Messages {
   @Description("Label for the user id input text box")
   String userIdLabel();
 
-  @DefaultMessage("Project id or name:")
+  @DefaultMessage("Id du projet ou nom:")
   @Description("Label for the project id input text box")
   String projectIdLabel();
 
@@ -937,7 +937,7 @@ public interface OdeMessages extends Messages {
   @Description("Error message reported when user id or project id is missing")
   String invalidUserIdOrProjectIdError();
 
-  @DefaultMessage("Admin")
+  @DefaultMessage("Administrateur")
   @Description("Label of the button leading to admin functionality")
   String adminButton();
 
@@ -1010,7 +1010,7 @@ public interface OdeMessages extends Messages {
 
   // Used in output/OdeLog.java
 
-  @DefaultMessage("Clear")
+  @DefaultMessage("Nettoyer")
   @Description("Text on 'Clear' button")
   String clearButton();
 
@@ -1027,35 +1027,35 @@ public interface OdeMessages extends Messages {
 
   // Used in widgets/boxes/Box.java
 
-  @DefaultMessage("Done")
+  @DefaultMessage("Fait!")
   @Description("Caption for button to finish the box resizing dialog.")
   String done();
 
-  @DefaultMessage("Close")
+  @DefaultMessage("Fermer")
   @Description("Tool tip text for header icon for closing/removing a minimized box.")
   String hdrClose();
 
-  @DefaultMessage("Shrink")
+  @DefaultMessage("Retrecir")
   @Description("Tool tip text for header icon for minimizing the box.")
   String hdrMinimize();
 
-  @DefaultMessage("Settings")
+  @DefaultMessage("Parametres")
   @Description("Tool tip text for header icon for context menu of box.")
   String hdrSettings();
 
-  @DefaultMessage("Shrink")
+  @DefaultMessage("Retrecir")
   @Description("Caption for context menu item for minimizing the box.")
   String cmMinimize();
 
-  @DefaultMessage("Expand")
+  @DefaultMessage("Developper")
   @Description("Caption for context menu item for restoring a minimized box.")
   String cmRestore();
 
-  @DefaultMessage("Resize...")
+  @DefaultMessage("Redimensionner...")
   @Description("Caption for context menu item for resizing the box.")
   String cmResize();
 
-  @DefaultMessage("Expand")
+  @DefaultMessage("Developper")
   @Description("Tool tip text for header icon for restoring a minimized box.")
   String hdrRestore();
 
@@ -1079,7 +1079,7 @@ public interface OdeMessages extends Messages {
 
   // Used in wizards/FileUploadWizard.java
 
-  @DefaultMessage("Upload File ...")
+  @DefaultMessage("Charger un fichier ...")
   @Description("Caption for file upload wizard.")
   String fileUploadWizardCaption();
 
@@ -1138,7 +1138,7 @@ public interface OdeMessages extends Messages {
 
   // Used in wizards/ProjectUploadWizard.java
 
-  @DefaultMessage("Import Project...")
+  @DefaultMessage("Importer projet...")
   @Description("Caption for project upload wizard.")
   String projectUploadWizardCaption();
 
@@ -1153,21 +1153,21 @@ public interface OdeMessages extends Messages {
 
   // Used in wizards/Wizard.java
 
-  @DefaultMessage("Back")
+  @DefaultMessage("Retour")
   @Description("Text on 'Back' button to go back to the previous page of the wizard.")
   String backButton();
 
-  @DefaultMessage("Next")
+  @DefaultMessage("Suivant")
   @Description("Text on 'Next' button to proceed to the next page of the wizard.")
   String nextButton();
 
   // Used in wizards/youngandroid/NewYoungAndroidProjectWizard.java
 
-  @DefaultMessage("Create new App Inventor project")
+  @DefaultMessage("Creer un nouveau projet Android")
   @Description("Caption for the wizard to create a new Young Android project")
   String newYoungAndroidProjectWizardCaption();
 
-  @DefaultMessage("Project name:")
+  @DefaultMessage("Nom du projet:")
   @Description("Label for the project name input text box")
   String projectNameLabel();
 
@@ -1231,11 +1231,11 @@ public interface OdeMessages extends Messages {
   @Description("Text Messages are not received at any time.")
   String textReceivingChoiceOff();
 
-  @DefaultMessage("Foreground")
+  @DefaultMessage("Premier plan")
   @Description("Text Messages are received only when the App is in the foreground.")
   String textReceivingChoiceForeground();
 
-  @DefaultMessage("Always")
+  @DefaultMessage("Toujours")
   @Description("Text messages are always received, and a notification is shown if the App is in the background.")
   String textReceivingChoiceAlways();
 
@@ -1251,7 +1251,7 @@ public interface OdeMessages extends Messages {
   @Description("Message providing details about starting a USB connection.")
   String usbButton();
 
-  @DefaultMessage("Reset Connection")
+  @DefaultMessage("Reinitialiser Connexion")
   @Description("Reset all connections.")
   String resetConnections();
 
