@@ -160,7 +160,7 @@ public interface OdeMessages extends Messages {
   @Description("Alert after an internal error")
   String internalErrorSeeDebuggingView();
 
-  @DefaultMessage("An internal error has occurred. Click 'ok' for more information.")
+  @DefaultMessage("Une erreur interne s est produite. Cliquez sur  OK  pour plus d informations.")
   @Description("Confirm alert after an internal error")
   String internalErrorClickOkDebuggingView();
 
