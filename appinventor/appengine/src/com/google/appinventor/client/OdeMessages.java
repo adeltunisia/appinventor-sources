@@ -234,15 +234,15 @@ public interface OdeMessages extends Messages {
   @Description("Name of Import Project menuitem")
   String importProjectButton();
 
-  @DefaultMessage("Export selected project (.aia) to my computer")
+  @DefaultMessage("Exporter le projet selectionne (.aia) sur mon ordinateur")
   @Description("Name of Export Project menuitem")
   String exportProjectButton();
 
-  @DefaultMessage("Export all projects")
+  @DefaultMessage("Exporter tous les projets")
   @Description("Name of Export all Project menuitem")
   String exportAllProjectsButton();
 
-  @DefaultMessage("Déconnexion")
+  @DefaultMessage("Deconnexion")
   @Description("Label of the link for signing out")
   String signOutLink();
 
@@ -250,31 +250,31 @@ public interface OdeMessages extends Messages {
   @Description("Name of My Projects tab")
   String tabNameProjects();
 
-  @DefaultMessage("Report an Issue")
+  @DefaultMessage("Reporter un probleme")
   @Description("Link for Report an Issue form")
   String feedbackLink();
 
-  @DefaultMessage("Gallery")
+  @DefaultMessage("Gallerie")
   @Description("Link for Gallery")
   String galleryLink();
 
-  @DefaultMessage("Design")
+  @DefaultMessage("Conception")
   @Description("Name of Design tab")
   String tabNameDesign();
 
-  @DefaultMessage("Library")
+  @DefaultMessage("Bibliotheque")
   @Description("Name of Library link")
   String libraryLink();
 
-  @DefaultMessage("Get Started")
+  @DefaultMessage("Commencer")
   @Description("Name of Getting Started link")
   String getStartedLink();
 
-  @DefaultMessage("Tutorials")
+  @DefaultMessage("Cours")
   @Description("Name of Tutorials link")
   String tutorialsLink();
 
-  @DefaultMessage("Troubleshooting")
+  @DefaultMessage("Depannage")
   @Description("Name of Troubleshooting link")
   String troubleshootingLink();
 
@@ -286,11 +286,11 @@ public interface OdeMessages extends Messages {
   @Description("Name of Guide link")
   String guideLink();
 
-  @DefaultMessage("(Debugging)")
+  @DefaultMessage("(debogage)")
   @Description("Name of Debugging tab")
   String tabNameDebugging();
 
-  @DefaultMessage("Please choose a project to open or create a new project.")
+  @DefaultMessage("S il vous plait choisir un projet pour ouvrir ou de creer un nouveau projet..")
   @Description("Message shown when there is no current file editor to switch to")
   String chooseProject();
 
