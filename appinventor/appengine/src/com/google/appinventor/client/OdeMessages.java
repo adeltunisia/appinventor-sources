@@ -391,13 +391,13 @@ public interface OdeMessages extends Messages {
   @Description("Title for the rename component dialog")
   String renameTitle();
 
-  @DefaultMessage("Component names can contain only letters, numbers, and underscores and " +
-      "must start with a letter")
+  @DefaultMessage("Le nom des composants peuvent contenir que des lettres, des chiffres et des tirets bas et " +
+      "doit commencer avec un caractere")
   @Description("Error message when component name contains non-alphanumeric characters besides _ " +
       "or does not start with a letter")
   String malformedComponentNameError();
 
-  @DefaultMessage("Duplicate component name!")
+  @DefaultMessage("Dupliquer le nom du composant")
   @Description("Error shown when a new component name would be the same as an existing one")
   String duplicateComponentNameError();
 
@@ -435,11 +435,11 @@ public interface OdeMessages extends Messages {
 
   // Used in editor/simple/components/MockVisibleComponent.java
 
-  @DefaultMessage("Width")
+  @DefaultMessage("Largeur")
   @Description("Caption for the width property")
   String widthPropertyCaption();
 
-  @DefaultMessage("Height")
+  @DefaultMessage("Hauteur")
   @Description("Caption for the height property")
   String heightPropertyCaption();
 
@@ -451,17 +451,17 @@ public interface OdeMessages extends Messages {
 
   // Used in editor/simple/palette/ComponentHelpWidget.java
 
-  @DefaultMessage("More information")
+  @DefaultMessage("Plus d information")
   @Description("Label of the link to a component's reference docs")
   String moreInformation();
 
   // Used in editor/youngandroid/YaFormEditor.java and YaBlocksEditor.java
 
-  @DefaultMessage("Server error: could not load file. Please try again later!")
+  @DefaultMessage("Erreur de serveur: impossible de charger le fichier. S il vous plait reessayer plus tard")
   @Description("Error message reported when a source file couldn't be loaded from the server.")
   String loadError();
 
-  @DefaultMessage("Server error: could not save file. Please try again later!")
+  @DefaultMessage("Erreur de serveur: impossible d enregistrer le fichier. S il vous plait reessayer plus tard")
   @Description("Error message reported when a source file couldn't be saved to the server.")
   String saveError();
 
@@ -482,44 +482,44 @@ public interface OdeMessages extends Messages {
 
   //Used in editor/youngandroid/properties/YoungAndroidAccelerometerSensitivityChoicePropertyEditor.java
 
-  @DefaultMessage("weak")
+  @DefaultMessage("faible")
   @Description("Text for accelerometer sensitivity choice 'weak'")
   String weakAccelerometerSensitivity();
 
-  @DefaultMessage("moderate")
+  @DefaultMessage("modere")
   @Description("Text for accelerometer sensitivity choice 'moderate'")
   String moderateAccelerometerSensitivity();
 
-  @DefaultMessage("strong")
+  @DefaultMessage("fort")
   @Description("Text for accelerometer sensitivity choice 'strong'")
   String strongAccelerometerSensitivity();
 
   // Used in editor/youngandroid/properties/YoungAndroidAlignmentChoicePropertyEditor.java
 
-  @DefaultMessage("left")
+  @DefaultMessage("gauche")
   @Description("Text for text alignment choice 'left'")
   String leftTextAlignment();
 
-  @DefaultMessage("center")
+  @DefaultMessage("centre")
   @Description("Text for text alignment choice 'center'")
   String centerTextAlignment();
 
-  @DefaultMessage("right")
+  @DefaultMessage("droite")
   @Description("Text for text alignment choice 'right'")
   String rightTextAlignment();
 
   // Used in
   // editor/youngandroid/properties/YoungAndroidHorizontalAlignmentChoicePropertyEditor.java
 
-  @DefaultMessage("Left")
+  @DefaultMessage("Gauche")
   @Description("Text for horizontal alignment choice 'Left")
   String horizontalAlignmentChoiceLeft();
 
-  @DefaultMessage("Right")
+  @DefaultMessage("Droite")
   @Description("Text for horizontal alignemt choice 'Right'")
   String horizontalAlignmentChoiceRight();
 
-  @DefaultMessage("Center")
+  @DefaultMessage("Centre")
   @Description("Text for horizontal alignment choice 'Center'")
   String horizontalAlignmentChoiceCenter();
 
