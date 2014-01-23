@@ -308,7 +308,7 @@ public interface OdeMessages extends Messages {
 
   // Used in boxes/MotdBox.java
 
-  @DefaultMessage("Welcome to App Inventor!")
+  @DefaultMessage("Bienvenue a App Inventor!")
   @Description("Initial caption for MOTD box.")
   String motdBoxCaption();
 
@@ -326,25 +326,25 @@ public interface OdeMessages extends Messages {
 
   // Used in boxes/ProjectListBox.java
 
-  @DefaultMessage("Projects")
+  @DefaultMessage("Projecs")
   @Description("Caption for project list box.")
   String projectListBoxCaption();
 
   // Used in boxes/PropertiesBox.java
 
-  @DefaultMessage("Properties")
+  @DefaultMessage("Proprietes")
   @Description("Caption for properties box.")
   String propertiesBoxCaption();
 
   // Used in boxes/SourceStructureBox.java
 
-  @DefaultMessage("Components")
+  @DefaultMessage("Composants")
   @Description("Caption for source structure box.")
   String sourceStructureBoxCaption();
 
   // Used in boxes/BlockSelectorBox.java
 
-  @DefaultMessage("Blocks")
+  @DefaultMessage("Bloc")
   @Description("Caption for block selector box.")
   String blockSelectorBoxCaption();
 
