@@ -170,23 +170,23 @@ public interface OdeMessages extends Messages {
 
   // Used in RpcStatusPopup.java
 
-  @DefaultMessage("Loading ...")
+  @DefaultMessage("Chargement ...")
   @Description("Message that is shown to indicate that a loading RPC is going on")
   String defaultRpcMessage();
 
-  @DefaultMessage("Saving ...")
+  @DefaultMessage("Enregistrment ...")
   @Description("Message that is shown to indicate that a saving RPC is going on")
   String savingRpcMessage();
 
-  @DefaultMessage("Copying ...")
+  @DefaultMessage("Copie ...")
   @Description("Message that is shown to indicate that a copying RPC is going on")
   String copyingRpcMessage();
 
-  @DefaultMessage("Deleting ...")
+  @DefaultMessage("Suppression ...")
   @Description("Message that is shown to indicate that a deleting RPC is going on")
   String deletingRpcMessage();
 
-  @DefaultMessage("Packaging ...")
+  @DefaultMessage("Emballement ...")
   @Description("Message shown during a building RPC (for Young Android, called 'packaging')")
   String packagingRpcMessage();
 
