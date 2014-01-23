@@ -526,59 +526,59 @@ public interface OdeMessages extends Messages {
   // Used in
   // editor/youngandroid/properties/YoungAndroidVerticalAlignmentChoicePropertyEditor.java
 
-  @DefaultMessage("Top")
+  @DefaultMessage("Haut")
   @Description("Text for vertical alignment choice 'Top'")
   String verticalAlignmentChoiceTop();
 
-  @DefaultMessage("Center")
+  @DefaultMessage("Centre")
   @Description("Text for vertical alignment choice 'Center'")
   String verticalAlignmentChoiceCenter();
 
-  @DefaultMessage("Bottom")
+  @DefaultMessage("Bas")
   @Description("Text for vertical alignment choice 'Bottom'")
   String verticalAlignmentChoiceBottom();
 
   // Used in editor/youngandroid/properties/YoungAndroidButtonShapeChoicePropertyEditor.java
 
-  @DefaultMessage("default")
+  @DefaultMessage("Par defaut")
   @Description("Text for button shape choice 'default'")
   String defaultButtonShape();
 
-  @DefaultMessage("rounded")
+  @DefaultMessage("Arrondie")
   @Description("Text for button shape choice 'rounded'")
   String roundedButtonShape();
 
-  @DefaultMessage("rectangular")
+  @DefaultMessage("Rectangulaire")
   @Description("Text for button shape choice 'rectangular'")
   String rectButtonShape();
 
-  @DefaultMessage("oval")
+  @DefaultMessage("ovale")
   @Description("Text for button shape choice 'oval'")
   String ovalButtonShape();
 
   // Used in editor/youngandroid/properties/YoungAndroidAssetSelectorPropertyEditor.java
 
-  @DefaultMessage("You must select an asset!")
+  @DefaultMessage("Il faut choisir un objet!")
   @Description("Message displayed when OK button is clicked when there is no asset selected.")
   String noAssetSelected();
 
   // Used in editor/youngandroid/properties/YoungAndroidComponentSelectorPropertyEditor.java
 
-  @DefaultMessage("You must select a component!")
+  @DefaultMessage("Il faut choisir un composant!")
   @Description("Message displayed when OK button is clicked when there is no component selected.")
   String noComponentSelected();
 
   // Used in editor/youngandroid/properties/YoungAndroidColorChoicePropertyEditor.java
 
-  @DefaultMessage("None")
+  @DefaultMessage("vide")
   @Description("Text for color choice 'None'")
   String noneColor();
 
-  @DefaultMessage("Black")
+  @DefaultMessage("Noir")
   @Description("Text for color choice 'Black'")
   String blackColor();
 
-  @DefaultMessage("Blue")
+  @DefaultMessage("Bleu")
   @Description("Text for color choice 'Blue'")
   String blueColor();
 
@@ -586,23 +586,23 @@ public interface OdeMessages extends Messages {
   @Description("Text for color choice 'Cyan'")
   String cyanColor();
 
-  @DefaultMessage("Default")
+  @DefaultMessage("Par defaut")
   @Description("Text for color choice 'Default'")
   String defaultColor();
 
-  @DefaultMessage("Dark Gray")
+  @DefaultMessage("Gris foncé")
   @Description("Text for color choice 'Dark Gray'")
   String darkGrayColor();
 
-  @DefaultMessage("Gray")
+  @DefaultMessage("Gris")
   @Description("Text for color choice 'Gray'")
   String grayColor();
 
-  @DefaultMessage("Green")
+  @DefaultMessage("Vert")
   @Description("Text for color choice 'Green'")
   String greenColor();
 
-  @DefaultMessage("Light Gray")
+  @DefaultMessage("Gris clair")
   @Description("Text for color choice 'Light Gray'")
   String lightGrayColor();
 
@@ -614,25 +614,25 @@ public interface OdeMessages extends Messages {
   @Description("Text for color choice 'Orange'")
   String orangeColor();
 
-  @DefaultMessage("Pink")
+  @DefaultMessage("Rose")
   @Description("Text for color choice 'Pink'")
   String pinkColor();
 
-  @DefaultMessage("Red")
+  @DefaultMessage("Rouge")
   @Description("Text for color choice 'Red'")
   String redColor();
 
-  @DefaultMessage("White")
+  @DefaultMessage("Blanc")
   @Description("Text for color choice 'White'")
   String whiteColor();
 
-  @DefaultMessage("Yellow")
+  @DefaultMessage("Jaune")
   @Description("Text for color choice 'Yellow'")
   String yellowColor();
 
   // Used in editor/youngandroid/properties/YoungAndroidFontTypefaceChoicePropertyEditor.java
 
-  @DefaultMessage("default")
+  @DefaultMessage("Par defaut")
   @Description("Text for font typeface choice 'default '")
   String defaultFontTypeface();
 
@@ -650,11 +650,11 @@ public interface OdeMessages extends Messages {
 
   // Used in editor/youngandroid/properties/YoungAndroidLengthPropertyEditor.java
 
-  @DefaultMessage("Automatic")
+  @DefaultMessage("Automatique")
   @Description("Caption and summary for Automatic choice")
   String automaticCaption();
 
-  @DefaultMessage("Fill parent")
+  @DefaultMessage("Remplir parent")
   @Description("Caption and summary for Fill Parent choice")
   String fillParentCaption();
 
@@ -666,13 +666,13 @@ public interface OdeMessages extends Messages {
   @Description("Summary for custom length in pixels")
   String pixelsSummary(String pixels);
 
-  @DefaultMessage("The value must be a number greater than or equal to 0")
+  @DefaultMessage("La valeur doit etre un nombre superieur ou egal a 0")
   @Description("Error shown after validation of custom length field failed.")
   String nonnumericInputError();
 
   // Used in editor/youngandroid/properties/YoungAndroidScreenAnimationChoicePropertyEditor.java
 
-  @DefaultMessage("Default")
+  @DefaultMessage("Par defaut")
   @Description("Text for screen animation choice 'Default '")
   String defaultScreenAnimation();
 
@@ -692,13 +692,13 @@ public interface OdeMessages extends Messages {
   @Description("Text for screen animation choice 'SlideVertical '")
   String slideVerticalScreenAnimation();
 
-  @DefaultMessage("None")
+  @DefaultMessage("Rien")
   @Description("Text for screen animation choice 'None '")
   String noneScreenAnimation();
 
   // Used in editor/youngandroid/properties/YoungAndroidScreenOrientationChoicePropertyEditor.java
 
-  @DefaultMessage("Unspecified")
+  @DefaultMessage("Non specifie")
   @Description("Text for screen orientation choice 'Unspecified '")
   String unspecifiedScreenOrientation();
 
@@ -706,21 +706,21 @@ public interface OdeMessages extends Messages {
   @Description("Text for screen orientation choice 'Portrait '")
   String portraitScreenOrientation();
 
-  @DefaultMessage("Landscape")
+  @DefaultMessage("Paysage")
   @Description("Text for screen orientation choice 'Landscape '")
   String landscapeScreenOrientation();
 
-  @DefaultMessage("Sensor")
+  @DefaultMessage("Capteur")
   @Description("Text for screen orientation choice 'Sensor '")
   String sensorScreenOrientation();
 
-  @DefaultMessage("User")
+  @DefaultMessage("Utilisateur")
   @Description("Text for screen orientation choice 'User '")
   String userScreenOrientation();
 
   // Used in editor/youngandroid/properties/YoungAndroidToastLengthChoicePropertyEditor.java
 
-  @DefaultMessage("Short")
+  @DefaultMessage("Court")
   @Description("Show toast for a Toast_Short of time")
   String shortToastLength();
 
@@ -730,13 +730,13 @@ public interface OdeMessages extends Messages {
 
   // Used in explorer/SourceStructureExplorer.java
 
-  @DefaultMessage("Rename")
+  @DefaultMessage("Renommer")
   @Description("Label of the button for rename")
   String renameButton();
 
   // Used in explorer/commands/AddFormCommand.java
 
-  @DefaultMessage("New Screen")
+  @DefaultMessage("Nouvelle interface")
   @Description("Title of new Screen dialog.")
   String newFormTitle();
 
