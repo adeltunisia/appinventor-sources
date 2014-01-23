@@ -190,7 +190,7 @@ public interface OdeMessages extends Messages {
   @Description("Message shown during a building RPC (for Young Android, called 'packaging')")
   String packagingRpcMessage();
 
-  @DefaultMessage("Downloading to phone ...")
+  @DefaultMessage("Telechargement au telephone ...")
   @Description("Message shown while downloading application to the phone (during compilation)")
   String downloadingRpcMessage();
 
@@ -200,11 +200,11 @@ public interface OdeMessages extends Messages {
   @Description("Label showing the ant build date and the git version")
   String gitBuildId(String date, String version);
 
-  @DefaultMessage("Help")
+  @DefaultMessage("Aide")
   @Description("Label for the Help menu")
   String helpLink();
 
-  @DefaultMessage("About")
+  @DefaultMessage("A propos")
   @Description("Label of the link for About")
   String aboutLink();
 
@@ -212,7 +212,7 @@ public interface OdeMessages extends Messages {
   @Description("Label of the link for Privacy")
   String privacyLink();
 
-  @DefaultMessage("Terms")
+  @DefaultMessage("Termes")
   @Description("Label of the link for Terms")
   String termsLink();
 
@@ -242,7 +242,7 @@ public interface OdeMessages extends Messages {
   @Description("Name of Export all Project menuitem")
   String exportAllProjectsButton();
 
-  @DefaultMessage("Sign out")
+  @DefaultMessage("Deconnexion")
   @Description("Label of the link for signing out")
   String signOutLink();
 
