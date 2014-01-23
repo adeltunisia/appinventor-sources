@@ -242,7 +242,7 @@ public interface OdeMessages extends Messages {
   @Description("Name of Export all Project menuitem")
   String exportAllProjectsButton();
 
-  @DefaultMessage("Deconnexion")
+  @DefaultMessage("Déconnexion")
   @Description("Label of the link for signing out")
   String signOutLink();
 
