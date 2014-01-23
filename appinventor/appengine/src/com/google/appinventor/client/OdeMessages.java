@@ -353,7 +353,7 @@ public interface OdeMessages extends Messages {
   String builtinBlocksLabel();
 
   // Used in boxes/ViewerBox.java
-  @DefaultMessage("Viewer")
+  @DefaultMessage("Afficheur")
   @Description("Caption for a viewer box.")
   String viewerBoxCaption();
 
@@ -365,7 +365,7 @@ public interface OdeMessages extends Messages {
 
   // Used in editor/EditorManager.java
 
-  @DefaultMessage("Server error: could not save one or more files. Please try again later!")
+  @DefaultMessage("Erreur de serveur: impossible de sauvegarder un ou plusieurs fichiers. S il vous plait reessayer plus tard!")
   @Description("Error message reported when one or more file couldn't be saved to the server.")
   String saveErrorMultipleFiles();
 
@@ -375,19 +375,19 @@ public interface OdeMessages extends Messages {
 
   // Used in editor/simple/SimpleNonVisibleComponentsPanel.java
 
-  @DefaultMessage("Non-visible components")
+  @DefaultMessage("Composants invisible")
   @Description("Header for the non-visible components in the designer.")
   String nonVisibleComponentsHeader();
 
   // Used in editor/simple/SimpleVisibleComponentsPanel.java
 
-  @DefaultMessage("Display hidden components in Viewer")
+  @DefaultMessage("Afficher les composants non visibles dans l afficheur")
   @Description("Checkbox controlling whether to display invisible components in the designer.")
   String showHiddenComponentsCheckbox();
 
   // Used in editor/simple/components/MockComponent.java
 
-  @DefaultMessage("Rename Component")
+  @DefaultMessage("Renommer composant")
   @Description("Title for the rename component dialog")
   String renameTitle();
 
