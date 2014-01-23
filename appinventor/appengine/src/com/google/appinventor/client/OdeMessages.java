@@ -138,25 +138,25 @@ public interface OdeMessages extends Messages {
 
   // Used in MotdFetcher.java
 
-  @DefaultMessage("Failed to contact server to get the MOTD.")
+  @DefaultMessage("Impossible de contacter le serveur pour obtenir le MOTD.")
   @Description("Message displayed when cannot get a MOTD from the server.")
   String getMotdFailed();
 
   // Used in Ode.java
 
-  @DefaultMessage("MIT App Inventor 2 by ADEL")
+  @DefaultMessage("MIT App Inventor 2 FRENCH by ADEL KASSAH (TUNISIA)")
   @Description("Title for App Inventor")
   String titleYoungAndroid();
 
-  @DefaultMessage("An internal error has occurred. Report a bug?")
+  @DefaultMessage("Une erreur interne s est produite. Signaler un bug?")
   @Description("Confirmation for reporting a bug after an internal error")
   String internalErrorReportBug();
 
-  @DefaultMessage("An internal error has occurred.")
+  @DefaultMessage("Une erreur interne s est produite.")
   @Description("Alert after an internal error")
   String internalError();
 
-  @DefaultMessage("An internal error has occurred. Go look in the Debugging view.")
+  @DefaultMessage("Une erreur interne s'est produite. Aller chercher dans la vue de débogage.")
   @Description("Alert after an internal error")
   String internalErrorSeeDebuggingView();
 
@@ -164,7 +164,7 @@ public interface OdeMessages extends Messages {
   @Description("Confirm alert after an internal error")
   String internalErrorClickOkDebuggingView();
 
-  @DefaultMessage("The server is temporarily unavailable. Please try again later!")
+  @DefaultMessage("Le serveur est momentanément indisponible. S il vous plaît réessayer plus tard!")
   @Description("Error message if the server becomes completely unavailable.")
   String serverUnavailable();
 
