@@ -197,37 +197,37 @@ Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_COLLAPSED_TEXT = 'ouvrir interface';
 Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TOOLTIP = 'Opens a new screen in a multiple screen app.';
 
 Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#openscreenwithvalue';
-Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TITLE = 'open another screen with start value';
-Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_SCREENNAME = 'screenName';
-Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_STARTVALUE = 'startValue';
-Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_COLLAPSED_TEXT = 'open screen with value'
+Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TITLE = 'Ouvrir une autre interface avec une valeur initialeopen another screen with start value';
+Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_SCREENNAME = 'nomInterface';
+Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_STARTVALUE = 'ValeurDebut';
+Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_COLLAPSED_TEXT = 'ouvre une interface avec une valeur'
 Blockly.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TOOLTIP = 'Opens a new screen in a multiple screen app and passes the '
   + 'start value to that screen.';
 
 Blockly.LANG_CONTROLS_GET_START_VALUE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#getstartvalue';
-Blockly.LANG_CONTROLS_GET_START_VALUE_TITLE = 'get start value';
-Blockly.LANG_CONTROLS_GET_START_VALUE_INPUT_SCREENNAME = 'screenName';
-Blockly.LANG_CONTROLS_GET_START_VALUE_INPUT_STARTVALUE = 'startValue';
-Blockly.LANG_CONTROLS_GET_START_VALUE_COLLAPSED_TEXT = 'get start value';
+Blockly.LANG_CONTROLS_GET_START_VALUE_TITLE = 'obtenir valeur de debut';
+Blockly.LANG_CONTROLS_GET_START_VALUE_INPUT_SCREENNAME = 'nomInterface';
+Blockly.LANG_CONTROLS_GET_START_VALUE_INPUT_STARTVALUE = 'ValeurDebut';
+Blockly.LANG_CONTROLS_GET_START_VALUE_COLLAPSED_TEXT = 'obtenir valeur de debut';
 Blockly.LANG_CONTROLS_GET_START_VALUE_TOOLTIP = 'Returns the value that was passed to this screen when it '
   + 'was opened, typically by another screen in a multiple-screen app. If no value was '
   + 'passed, returns the empty text.';
 
 Blockly.LANG_CONTROLS_CLOSE_SCREEN_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#closescreen';;
-Blockly.LANG_CONTROLS_CLOSE_SCREEN_TITLE = 'close screen';
-Blockly.LANG_CONTROLS_CLOSE_SCREEN_COLLAPSED_TEXT = 'close screen';
+Blockly.LANG_CONTROLS_CLOSE_SCREEN_TITLE = 'fermer interface';
+Blockly.LANG_CONTROLS_CLOSE_SCREEN_COLLAPSED_TEXT = 'fermer interface';
 Blockly.LANG_CONTROLS_CLOSE_SCREEN_TOOLTIP = 'Close the current screen';
 
 Blockly.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#closescreenwithvalue';;
-Blockly.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TITLE = 'close screen with value';
-Blockly.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_INPUT_RESULT = 'result';
-Blockly.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_COLLAPSED_TEXT = 'close screen with value';
+Blockly.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TITLE = 'ferme interface avec une valeur';
+Blockly.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_INPUT_RESULT = 'resultat';
+Blockly.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_COLLAPSED_TEXT = 'ferme interface avec une valeur';
 Blockly.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TOOLTIP = 'Closes the current screen and returns a result to the '
   + 'screen that opened this one.';
 
 Blockly.LANG_CONTROLS_CLOSE_APPLICATION_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#closeapp';;
-Blockly.LANG_CONTROLS_CLOSE_APPLICATION_TITLE = 'close application';
-Blockly.LANG_CONTROLS_CLOSE_APPLICATION_COLLAPSED_TEXT = 'close application';
+Blockly.LANG_CONTROLS_CLOSE_APPLICATION_TITLE = 'fermer application';
+Blockly.LANG_CONTROLS_CLOSE_APPLICATION_COLLAPSED_TEXT = 'fermer application';
 Blockly.LANG_CONTROLS_CLOSE_APPLICATION_TOOLTIP = 'Closes all screens in this app and stops the app.';
 
 Blockly.LANG_CONTROLS_GET_PLAIN_START_TEXT_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/control#getplainstarttext';
