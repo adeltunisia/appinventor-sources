@@ -156,7 +156,7 @@ public interface OdeMessages extends Messages {
   @Description("Alert after an internal error")
   String internalError();
 
-  @DefaultMessage("Une erreur interne s\'est produite. Aller chercher dans la vue de debogage.")
+  @DefaultMessage("Une erreur interne s est produite. Aller chercher dans la vue de debogage.")
   @Description("Alert after an internal error")
   String internalErrorSeeDebuggingView();
 
