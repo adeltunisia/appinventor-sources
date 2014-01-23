@@ -9,22 +9,22 @@
 Blockly.MSG_DUPLICATE_BLOCK = 'Dupliquer';
 Blockly.MSG_REMOVE_COMMENT = 'Supprimer commentaire';
 Blockly.MSG_ADD_COMMENT = 'Ajouter commentaire';
-Blockly.MSG_EXTERNAL_INPUTS = 'External Inputs';
+Blockly.MSG_EXTERNAL_INPUTS = 'Entrees externes';
 Blockly.MSG_INLINE_INPUTS = 'Inline Inputs';
-Blockly.MSG_HORIZONTAL_PARAMETERS = 'Arrange Parameters Horizontally';
-Blockly.MSG_VERTICAL_PARAMETERS = 'Arrange Parameters Vertically';
+Blockly.MSG_HORIZONTAL_PARAMETERS = 'Organiser les parametres Horizontalement';
+Blockly.MSG_VERTICAL_PARAMETERS = 'Organiser les parametres verticalement';
 Blockly.MSG_DELETE_BLOCK = 'Supprimer bloc';
 Blockly.MSG_DELETE_X_BLOCKS = 'Delete %1 Blocks';
-Blockly.MSG_COLLAPSE_BLOCK = 'Collapse Block';
-Blockly.MSG_EXPAND_BLOCK = 'Expand Block';
-Blockly.MSG_DISABLE_BLOCK = 'Disable Block';
+Blockly.MSG_COLLAPSE_BLOCK = 'Reduire le bloc';
+Blockly.MSG_EXPAND_BLOCK = 'Developper le bloc';
+Blockly.MSG_DISABLE_BLOCK = 'Desactiver le bloc';
 Blockly.MSG_ENABLE_BLOCK = 'Enable Block';
 Blockly.MSG_HELP = 'Help';
 Blockly.MSG_COLLAPSE_ALL = 'Collapse Blocks';
-Blockly.MSG_EXPAND_ALL = 'Expand Blocks';
-Blockly.MSG_ARRANGE_H = 'Arrange Blocks Horizontally';
-Blockly.MSG_ARRANGE_V = 'Arrange Blocks Vertically';
-Blockly.MSG_ARRANGE_S = 'Arrange Blocks Diagonally';
+Blockly.MSG_EXPAND_ALL = 'Developper les bloc';
+Blockly.MSG_ARRANGE_H = 'Organiser les blocs horizontalement';
+Blockly.MSG_ARRANGE_V = 'Organiser les blocs verticalement';
+Blockly.MSG_ARRANGE_S = 'Organiser les blocs en diagonale';
 Blockly.MSG_SORT_W = 'Sort Blocks by Width';
 Blockly.MSG_SORT_H = 'Sort Blocks by Height';
 Blockly.MSG_SORT_C = 'Sort Blocks by Category';
@@ -759,30 +759,30 @@ Blockly.LANG_LISTS_SET_INDEX_TOOLTIP = 'Sets the value at the specified position
 
 // Variables Blocks.
 Blockly.LANG_VARIABLES_GLOBAL_DECLARATION_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/variables#global';
-Blockly.LANG_VARIABLES_GLOBAL_DECLARATION_TITLE_INIT = 'initialize global';
-Blockly.LANG_VARIABLES_GLOBAL_DECLARATION_NAME = 'name';
-Blockly.LANG_VARIABLES_GLOBAL_DECLARATION_TO = 'to';
+Blockly.LANG_VARIABLES_GLOBAL_DECLARATION_TITLE_INIT = 'initialiser la variable globale';
+Blockly.LANG_VARIABLES_GLOBAL_DECLARATION_NAME = 'nom';
+Blockly.LANG_VARIABLES_GLOBAL_DECLARATION_TO = 'a';
 Blockly.LANG_VARIABLES_GLOBAL_DECLARATION_COLLAPSED_TEXT = 'global';
 Blockly.LANG_VARIABLES_GLOBAL_DECLARATION_TOOLTIP = 'Creates a global variable and gives it the value of the attached blocks.';
 
 Blockly.LANG_VARIABLES_GET_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/variables#get';
-Blockly.LANG_VARIABLES_GET_TITLE_GET = 'get';
-/* Blockly.LANG_VARIABLES_GET_INPUT_ITEM = 'item'; */ // [lyn, 10/14/13] unused
-Blockly.LANG_VARIABLES_GET_COLLAPSED_TEXT = 'get';
+Blockly.LANG_VARIABLES_GET_TITLE_GET = 'obtenir';
+/* Blockly.LANG_VARIABLES_GET_INPUT_ITEM = 'element'; */ // [lyn, 10/14/13] unused
+Blockly.LANG_VARIABLES_GET_COLLAPSED_TEXT = 'obtenir';
 Blockly.LANG_VARIABLES_GET_TOOLTIP = 'Returns the value of this variable.';
 
 Blockly.LANG_VARIABLES_SET_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/variables#set';
-Blockly.LANG_VARIABLES_SET_TITLE_SET = 'set';
-/* Blockly.LANG_VARIABLES_SET_INPUT_ITEM = 'item'; */ // [lyn, 10/14/13] unused
-Blockly.LANG_VARIABLES_SET_TITLE_TO = 'to';
-Blockly.LANG_VARIABLES_SET_COLLAPSED_TEXT = 'set';
+Blockly.LANG_VARIABLES_SET_TITLE_SET = 'fixer';
+/* Blockly.LANG_VARIABLES_SET_INPUT_ITEM = 'element'; */ // [lyn, 10/14/13] unused
+Blockly.LANG_VARIABLES_SET_TITLE_TO = 'a;
+Blockly.LANG_VARIABLES_SET_COLLAPSED_TEXT = 'fixer';
 Blockly.LANG_VARIABLES_SET_TOOLTIP = 'Sets this variable to be equal to the input.';
 
 Blockly.LANG_VARIABLES_LOCAL_DECLARATION_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/variables#do';
-Blockly.LANG_VARIABLES_LOCAL_DECLARATION_TITLE_INIT = 'initialize local';
-Blockly.LANG_VARIABLES_LOCAL_DECLARATION_DEFAULT_NAME = 'name';
-Blockly.LANG_VARIABLES_LOCAL_DECLARATION_INPUT_TO = 'to';
-Blockly.LANG_VARIABLES_LOCAL_DECLARATION_IN_DO = 'in';
+Blockly.LANG_VARIABLES_LOCAL_DECLARATION_TITLE_INIT = 'initialiser la variable locale';
+Blockly.LANG_VARIABLES_LOCAL_DECLARATION_DEFAULT_NAME = 'nom';
+Blockly.LANG_VARIABLES_LOCAL_DECLARATION_INPUT_TO = 'a';
+Blockly.LANG_VARIABLES_LOCAL_DECLARATION_IN_DO = 'dans';
 Blockly.LANG_VARIABLES_LOCAL_DECLARATION_COLLAPSED_TEXT = 'local';
 Blockly.LANG_VARIABLES_LOCAL_DECLARATION_TOOLTIP = 'Allows you to create variables that are only accessible in the do part of this block.';
 
