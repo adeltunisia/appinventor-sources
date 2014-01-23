@@ -164,7 +164,7 @@ public interface OdeMessages extends Messages {
   @Description("Confirm alert after an internal error")
   String internalErrorClickOkDebuggingView();
 
-  @DefaultMessage("Le serveur est momentanement indisponible. S il vous plait reessayer plus tard!")
+  @DefaultMessage("Le serveur est momentanement indisponible. S il vous plaît reessayer plus tard!")
   @Description("Error message if the server becomes completely unavailable.")
   String serverUnavailable();
 
